@@ -1,0 +1,22 @@
+{
+  "name": "torus84/module-robot",
+  "description": "N/A",
+  "author": "Taras Shabatyn (mailto:taras.shabatin@gmail.com)",
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "magento/framework": "100.0.*|100.1.*|100.2.*"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Torus\\Robot\\": ""
+    }
+  }
+}
